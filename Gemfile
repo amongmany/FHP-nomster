@@ -32,6 +32,8 @@ gem 'bootstrap-sass', '~> 3.3.0'
 
 gem 'autoprefixer-rails'
 
+gem 'simple_form'
+
 # Gemfile for Rails 3+, sinatra, and Merb
 gem 'will_paginate', '~>3.0.6'
 
