@@ -32,6 +32,9 @@ gem 'bootstrap-sass', '~> 3.3.0'
 
 gem 'autoprefixer-rails'
 
+# Gemfile for Rails 3+, sinatra, and Merb
+gem 'will_paginate', '~>3.0.6'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
