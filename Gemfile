@@ -40,6 +40,12 @@ gem 'will_paginate', '~>3.0.6'
 # Gemfile for Devise User Authentication
 gem 'devise', '>= 3.2.4'
 
+# Geocoder Gemfile
+gem 'geocoder'
+
+# Figaro Gemfile
+gem 'figaro', '>= 1.0.0'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
