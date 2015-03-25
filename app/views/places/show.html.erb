@@ -31,6 +31,13 @@ function initialize() {
 
 <br />
 
+<% @place.photos.each do |photo| %>
+	<%= image_tag photo.picture %> 
+	<%= photo.caption %>
+<% end %>
+
+<br />
+
 	<div class="pull-right">
 		<% if current_user && current_user == @place.user %>
 			<%= link_to 'Edit', edit_place_path(@place), :class => 'btn btn-primary' %>
@@ -70,6 +77,15 @@ function initialize() {
   		Add a Comment
 	</button>
 </div>
+
+<div class="clear"></div>
+
+<!-- PHOTO UPLOAD FORM -->
+<%= simple_form_for @photo, :url => place_photos_path(@place) do |f| %>
+	<%= f.input :picture %>
+	<%= f.input :caption %>
+	<%= f.submit "Add a Photo", :class => 'btn btn-primary' %>
+<% end %>
 
 <div class="clear"></div>
 
