@@ -23,6 +23,7 @@ body a:hover {
 	padding-left: 60px;
 	font-size: 18px;
 	font-family: Montserrat, "helvetica neue", helvetica, sans-serif;
+	margin-bottom: 0px;
 }
 
 .navbar-brand {
@@ -37,6 +38,26 @@ body a:hover {
 
 .navbar-right {
 	margin-right: 43px;
+}
+
+.carousel {
+    background: #000;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    max-height: 400px;
+    margin: 0 auto;
+}
+
+.carousel-caption {
+	font-family: Montserrat, "helvetica neue", helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	text-shadow: rgba(0,0,0,0.95) 2px 2px;
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	position:absolute;
+	left:0;
 }
 
 .booyah-box {
