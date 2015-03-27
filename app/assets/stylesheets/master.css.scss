@@ -1,36 +1,59 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body {
-	background: url('/assets/confectionary.png');
-	font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+	background: #efefef;
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.navbar.navbar-inverse {
-	background:url('/assets/binding_dark.png');
+body a {
+	color: #88bfa6;
+}
+
+body a:hover {
+	text-decoration: none;
+	color: #dd8f2b;
+}
+
+.navbar {
+	background: #fff;
 	border-radius: 0;
-	box-shadow: 0px 1px 3px #2a2a2a;
-}
-
-.navbar-inverse .navbar-brand {
-	color: #f4f4f4;
+	box-shadow: 0px 1px 3px #e0e0e0;
+	height: 85px;
+	padding-top: 15px;
+	padding-left: 60px;
+	font-size: 18px;
 	font-family: Montserrat, "helvetica neue", helvetica, sans-serif;
 }
 
+.navbar-brand {
+	font-size: 26px;
+	font-weight: 400;
+}
+
+.navbar-logo {
+	float: left;
+	padding: 0 15px 0 5px;
+}
+
+.navbar-right {
+	margin-right: 43px;
+}
+
 .booyah-box {
-	-moz-boz-shadow: 1px 1px 2px 0 #d0d0d0;
-	-webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
-	box-shadow: 1px 1px 2px 0 #d0d0d0;
 	background: #fff;
-	border: 1px solid #ccc;
-	border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
 	margin-top: 10px;
 	margin-bottom: 15px;
 	padding: 20px;
+	border-radius: 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	margin:0;
 	padding:0;
+}
+
+h1 {
+	font-family: Montserrat, "helvetica neue", helvetica, sans-serif;
 }
 
 .col-centered {
@@ -58,16 +81,16 @@ h1, h2, h3, h4, h5, h6 {
   .digg_pagination .current {
     font-style: normal;
     font-weight: bold;
-    background: #2e6ab1;
+    background: #88bfa6;
     color: white;
-    border: 1px solid #2e6ab1; }
+    border: 1px solid #88bfa6; }
   .digg_pagination a {
     text-decoration: none;
-    color: #105cb6;
-    border: 1px solid #9aafe5; }
+    color: #88bfa6;
+    border: 1px solid #88bfa6; }
     .digg_pagination a:hover, .digg_pagination a:focus {
-      color: #000033;
-      border-color: #000033; }
+      color: #dd8f2b;
+      border-color: #dd8f2b; }
   .digg_pagination .page_info {
     background: #2e6ab1;
     color: white;
@@ -123,4 +146,21 @@ blockquote:before {
 }
 blockquote p {
   display: inline;
+}
+
+.index-image {
+	overflow: hidden;
+}
+
+.index-image img {
+	height: 294px;
+	width: 294px;
+	border-radius: 3px;
+}
+
+.alert {
+	text-align: center;
+	max-width: 83%;
+	margin: 0 auto 20px;
+	text-transform: uppercase;
 }
