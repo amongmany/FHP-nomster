@@ -30,8 +30,10 @@ gem 'jbuilder', '~> 1.2'
 # Bootstrap SASS Gem
 gem 'bootstrap-sass', '~> 3.3.0'
 
+# Autoprefixer gem
 gem 'autoprefixer-rails'
 
+# Simple Form gem
 gem 'simple_form'
 
 # Gemfile for Rails 3+, sinatra, and Merb
