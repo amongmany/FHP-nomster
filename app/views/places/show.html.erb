@@ -31,11 +31,15 @@ function initialize() {
 
 <br />
 
+
 <% @place.photos.each do |photo| %>
-	<%= image_tag photo.picture %> 
-	<%= photo.caption %>
+	<div class="page-image col-xs-12 col-sm-4">
+	<%= image_tag photo.picture%>
+	<p><%= photo.caption %></p>
+	</div>
 <% end %>
 
+<div class="clear"></div>
 <br />
 
 	<div class="pull-right">
