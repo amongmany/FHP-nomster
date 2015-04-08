@@ -16,6 +16,7 @@ FactoryGirl.define do
 	factory :place do
 		name "The Blue Stove"
 		description "Awesome baked stuff"
+		address "123 Main St"
 		latitude(42.3631519)
 		longitude(-71.056098)
 		association :user
